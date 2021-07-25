@@ -1,0 +1,144 @@
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
+$ conda env create -f windows.yml
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... b'Enabling nb_conda_kernels...\nStatus: enabled\n'
+b'Enabling notebook extension nb_conda/main...\n      - Validating: ok\nEnabling tree extension nb_conda/tree...\n      - Validating: ok\nEnabling: nb_conda\n- Writing config: C:\\Users\\Amarnath\\Anaconda3\\envs\\learn-env\\etc\\jupyter\n    - Validating...\n      nb_conda 2.2.1 ok\n'
+DEBUG menuinst_win32:__init__(199): Menu: name: 'Anaconda${PY_VER} ${PLATFORM}', prefix: 'C:\Users\Amarnath\Anaconda3\envs\learn-env', env_name: 'learn-env', mode: 'user', used_mode: 'user'
+DEBUG menuinst_win32:create(323): Shortcut cmd is C:\Users\Amarnath\Anaconda3\python.exe, args are ['C:\\Users\\Amarnath\\Anaconda3\\cwp.py', 'C:\\Users\\Amarnath\\Anaconda3\\envs\\learn-env', 'C:\\Users\\Amarnath\\Anaconda3\\envs\\learn-env\\python.exe', 'C:\\Users\\Amarnath\\Anaconda3\\envs\\learn-env\\Scripts\\jupyter-notebook-script.py', '"%USERPROFILE%/"']
+done
+Ran pip subprocess with arguments:
+['C:\\Users\\Amarnath\\Anaconda3\\envs\\learn-env\\python.exe', '-m', 'pip', 'install', '-U', '-r', 'C:\\Users\\Amarnath\\dsc-data-science-env-setup-v2-1\\condaenv.69m48dwi.requirements.txt']
+Pip subprocess output:
+Collecting absl-py==0.7.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/31/bc/ab68120d1d89ae23b694a55fe2aece2f91194313b71f9b05a80b32d3c24b/absl-py-0.7.0.tar.gz
+Collecting astor==0.7.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/35/6b/11530768cac581a12952a2aad00e1526b89d242d0b9f59534ef6e6a1752f/astor-0.7.1-py2.py3-none-any.whl
+Collecting atomicwrites==1.3.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting attrs==18.2.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/3a/e1/5f9023cc983f1a628a8c2fd051ad19e76ff7b142a0faf329336f9a62a514/attrs-18.2.0-py2.py3-none-any.whl
+Collecting bleach==1.5.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/33/70/86c5fec937ea4964184d4d6c4f0b9551564f821e1c3575907639036d9b90/bleach-1.5.0-py2.py3-none-any.whl
+Collecting branca==0.3.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/63/36/1c93318e9653f4e414a2e0c3b98fc898b4970e939afeedeee6075dd3b703/branca-0.3.1-py3-none-any.whl
+Collecting folium==0.7.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/55/e2/7e523df8558b7f4b2ab4c62014fd378ccecce3fdc14c9928b272a88ae4cc/folium-0.7.0-py3-none-any.whl
+Collecting gast==0.2.2 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/4e/35/11749bf99b2d4e3cceb4d55ca22590b0d7c2c62b9de38ac4a4a7f4687421/gast-0.2.2.tar.gz
+Collecting grpcio==1.18.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/bb/a7/fa027f411616f6e7c5899a8e3e1ab2e101808f8d62b6ee8b645411ed270b/grpcio-1.18.0-cp36-cp36m-win_amd64.whl
+Collecting html5lib==0.9999999 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 10))
+Collecting imbalanced-learn==0.4.3 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 11))
+  Using cached https://files.pythonhosted.org/packages/e5/4c/7557e1c2e791bd43878f8c82065bddc5798252084f26ef44527c02262af1/imbalanced_learn-0.4.3-py3-none-any.whl
+Collecting ipynb==0.5.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/31/42/4c0bbb66390e3a68e04ebf134c8d074a00c18b5882293f8ace5f7497fbf0/ipynb-0.5.1-py3-none-any.whl
+Collecting keras==2.2.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/62/51/0192489a2614e8c6a22de860e43221e566f4bbd44a047ff48c2fdbc59373/Keras-2.2.1-py2.py3-none-any.whl
+Collecting keras-applications==1.0.4 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 14))
+  Using cached https://files.pythonhosted.org/packages/54/90/8f327deaa37a71caddb59b7b4aaa9d4b3e90c0e76f8c2d1572005278ddc5/Keras_Applications-1.0.4-py2.py3-none-any.whl
+Collecting keras-preprocessing==1.0.2 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 15))
+  Using cached https://files.pythonhosted.org/packages/71/26/1e778ebd737032749824d5cba7dbd3b0cf9234b87ab5ec79f5f0403ca7e9/Keras_Preprocessing-1.0.2-py2.py3-none-any.whl
+Collecting markdown==3.0.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 16))
+  Using cached https://files.pythonhosted.org/packages/7a/6b/5600647404ba15545ec37d2f7f58844d690baf2f81f3a60b862e48f29287/Markdown-3.0.1-py2.py3-none-any.whl
+Collecting more-itertools==5.0.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 17))
+  Using cached https://files.pythonhosted.org/packages/a4/a6/42f17d065bda1fac255db13afc94c93dbfb64393eae37c749b4cb0752fc7/more_itertools-5.0.0-py3-none-any.whl
+Collecting obscure==1.0.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 18))
+  Using cached https://files.pythonhosted.org/packages/92/97/517442fc79453b409e5c1f145f84bf29d96af6b0551812a8027419de1336/obscure-1.0.1-py3-none-any.whl
+Collecting pillow==6.2.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 19))
+  Using cached https://files.pythonhosted.org/packages/b7/37/294a6ef8506cfebf8925c22d507fab7ea10e8279c915653571472ee903e1/Pillow-6.2.0-cp36-cp36m-win_amd64.whl
+Collecting pluggy==0.8.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 20))
+  Using cached https://files.pythonhosted.org/packages/2d/60/f58d9e8197f911f9405bf7e02227b43a2acc2c2f1a8cbb1be5ecf6bfd0b8/pluggy-0.8.1-py2.py3-none-any.whl
+Collecting protobuf==3.6.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 21))
+  Using cached https://files.pythonhosted.org/packages/e8/df/d606d07cff0fc8d22abcc54006c0247002d11a7f2d218eb008d48e76851d/protobuf-3.6.1-cp36-cp36m-win_amd64.whl
+Collecting py==1.7.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 22))
+  Using cached https://files.pythonhosted.org/packages/3e/c7/3da685ef117d42ac8d71af525208759742dd235f8094221fdaafcd3dba8f/py-1.7.0-py2.py3-none-any.whl
+Collecting pytest==3.7.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 23))
+  Using cached https://files.pythonhosted.org/packages/9e/a1/8166a56ce9d89fdd9efcae5601e71758029d90e5644e0b7b6eda07e67c35/pytest-3.7.0-py2.py3-none-any.whl
+Collecting pyyaml==3.13 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 24))
+  Using cached https://files.pythonhosted.org/packages/4f/ca/5fad249c5032270540c24d2189b0ddf1396aac49b0bdc548162edcf14131/PyYAML-3.13-cp36-cp36m-win_amd64.whl
+Collecting tensorboard==1.6.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 25))
+  Using cached https://files.pythonhosted.org/packages/b0/67/a8c91665987d359211dcdca5c8b2a7c1e0876eb0702a4383c1e4ff76228d/tensorboard-1.6.0-py3-none-any.whl
+Collecting tensorflow==1.6.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 26))
+  Downloading https://files.pythonhosted.org/packages/56/7d/a0e3ae33e8034be8e7d6b99a7f512c6e71b2180603fc3e0cfb6047b7374f/tensorflow-1.6.0-cp36-cp36m-win_amd64.whl (32.3MB)
+Collecting termcolor==1.1.0 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 27))
+Collecting werkzeug==0.14.1 (from -r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 28))
+  Using cached https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl
+Requirement already satisfied, skipping upgrade: six in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from absl-py==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 1)) (1.12.0)
+Requirement already satisfied, skipping upgrade: jinja2 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from branca==0.3.1->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 6)) (2.10.3)
+Requirement already satisfied, skipping upgrade: numpy in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from folium==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7)) (1.16.5)
+Requirement already satisfied, skipping upgrade: requests in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from folium==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7)) (2.22.0)
+Requirement already satisfied, skipping upgrade: scipy>=0.13.3 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from imbalanced-learn==0.4.3->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 11)) (1.3.1)
+Requirement already satisfied, skipping upgrade: scikit-learn>=0.20 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from imbalanced-learn==0.4.3->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 11)) (0.21.3)
+Requirement already satisfied, skipping upgrade: h5py in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from keras==2.2.1->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 13)) (2.9.0)
+Requirement already satisfied, skipping upgrade: setuptools in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from protobuf==3.6.1->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 21)) (41.4.0)
+Requirement already satisfied, skipping upgrade: colorama; sys_platform == "win32" in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from pytest==3.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 23)) (0.4.1)
+Requirement already satisfied, skipping upgrade: wheel>=0.26; python_version >= "3" in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from tensorboard==1.6.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 25)) (0.33.6)
+Requirement already satisfied, skipping upgrade: MarkupSafe>=0.23 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from jinja2->branca==0.3.1->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 6)) (1.1.1)
+Requirement already satisfied, skipping upgrade: idna<2.9,>=2.5 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from requests->folium==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7)) (2.8)
+Requirement already satisfied, skipping upgrade: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from requests->folium==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7)) (1.24.2)
+Requirement already satisfied, skipping upgrade: chardet<3.1.0,>=3.0.2 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from requests->folium==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7)) (3.0.4)
+Requirement already satisfied, skipping upgrade: certifi>=2017.4.17 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from requests->folium==0.7.0->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 7)) (2019.9.11)
+Requirement already satisfied, skipping upgrade: joblib>=0.11 in c:\users\amarnath\anaconda3\envs\learn-env\lib\site-packages (from scikit-learn>=0.20->imbalanced-learn==0.4.3->-r C:\Users\Amarnath\dsc-data-science-env-setup-v2-1\condaenv.69m48dwi.requirements.txt (line 11)) (0.13.2)
+Building wheels for collected packages: absl-py, gast
+  Building wheel for absl-py (setup.py): started
+  Building wheel for absl-py (setup.py): finished with status 'done'
+  Created wheel for absl-py: filename=absl_py-0.7.0-cp36-none-any.whl size=113534 sha256=99c3ca0cb6efe944256aa547fa515423f2d471e6e8f99839f8910f289dda35fd
+  Stored in directory: C:\Users\Amarnath\AppData\Local\pip\Cache\wheels\90\db\f8\2c3101f72ef1ad434e4662853174126ce30201a3e163dcbeca
+  Building wheel for gast (setup.py): started
+  Building wheel for gast (setup.py): finished with status 'done'
+  Created wheel for gast: filename=gast-0.2.2-cp36-none-any.whl size=7547 sha256=9a076a15a41e69a5c3a2fb149647bb20ab8b816fd5f039317a804ae213a00d47
+  Stored in directory: C:\Users\Amarnath\AppData\Local\pip\Cache\wheels\5c\2e\7e\a1d4d4fcebe6c381f378ce7743a3ced3699feb89bcfbdadadd
+Successfully built absl-py gast
+Installing collected packages: absl-py, astor, atomicwrites, attrs, html5lib, bleach, branca, folium, gast, grpcio, imbalanced-learn, ipynb, keras-preprocessing, keras-applications, pyyaml, keras, markdown, more-itertools, obscure, pillow, pluggy, protobuf, py, pytest, werkzeug, tensorboard, termcolor, tensorflow
+  Found existing installation: attrs 19.3.0
+    Uninstalling attrs-19.3.0:
+      Successfully uninstalled attrs-19.3.0
+  Found existing installation: bleach 3.1.4
+    Uninstalling bleach-3.1.4:
+      Successfully uninstalled bleach-3.1.4
+Successfully installed absl-py-0.7.0 astor-0.7.1 atomicwrites-1.3.0 attrs-18.2.0 bleach-1.5.0 branca-0.3.1 folium-0.7.0 gast-0.2.2 grpcio-1.18.0 html5lib-0.9999999 imbalanced-learn-0.4.3 ipynb-0.5.1 keras-2.2.1 keras-applications-1.0.4 keras-preprocessing-1.0.2 markdown-3.0.1 more-itertools-5.0.0 obscure-1.0.1 pillow-6.2.0 pluggy-0.8.1 protobuf-3.6.1 py-1.7.0 pytest-3.7.0 pyyaml-3.13 tensorboard-1.6.0 tensorflow-1.6.0 termcolor-1.1.0 werkzeug-0.14.1
+
+#
+# To activate this environment, use
+#
+#     $ conda activate learn-env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base)
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
+$ pip install graphviz==0.10.1
+Collecting graphviz==0.10.1
+  Using cached https://files.pythonhosted.org/packages/1f/e2/ef2581b5b86625657afd32030f90cf2717456c1d2b711ba074bf007c0f1a/graphviz-0.10.1-py2.py3-none-any.whl
+Installing collected packages: graphviz
+  Found existing installation: graphviz 0.14
+    Uninstalling graphviz-0.14:
+      Successfully uninstalled graphviz-0.14
+Successfully installed graphviz-0.10.1
+(base)
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
+$ source ~/.bash_profile
+(learn-env)
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
+$ conda list -f obscure
+# packages in environment at C:\Users\Amarnath\Anaconda3\envs\learn-env:
+#
+# Name                    Version                   Build  Channel
+obscure                   1.0.1                    pypi_0    pypi
+(learn-env)
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
+$ conda list -f graphviz
+# packages in environment at C:\Users\Amarnath\Anaconda3\envs\learn-env:
+#
+# Name                    Version                   Build  Channel
+(learn-env)
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
+$ which obscure
+which: no obscure in (/c/Users/Amarnath/Anaconda3/envs/learn-env:/c/Users/Amarnath/Anaconda3/envs/learn-env/Library/mingw-w64/bin:/c/Users/Amarnath/Anaconda3/envs/learn-env/Library/usr/bin:/c/Users/Amarnath/Anaconda3/envs/learn-env/Library/bin:/c/Users/Amarnath/Anaconda3/envs/learn-env/Scripts:/c/Users/Amarnath/Anaconda3/envs/learn-env/bin:C:/Users/Amarnath/Anaconda3:C:/Users/Amarnath/Anaconda3/Library/mingw-w64/bin:C:/Users/Amarnath/Anaconda3/Library/usr/bin:C:/Users/Amarnath/Anaconda3/Library/bin:C:/Users/Amarnath/Anaconda3/Scripts:C:/Users/Amarnath/Anaconda3/bin:C:/Users/Amarnath/Anaconda3/Scripts/condabin:/c/Users/Amarnath/Anaconda3/pkgs/conda-4.7.12-py37_0/etc/profile.d:/c/Users/Amarnath/Anaconda3/condabin:/c/Users/Amarnath/Anaconda3:C:/Users/Amarnath/Anaconda3:C:/c/Users/Amarnath/Anaconda3:/c/Users/Amarnath/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/usr/bin:/mingw64/bin:/usr/bin:/c/Users/Amarnath/bin:/c/Program Files (x86)/Razer Chroma SDK/bin:/c/Program Files/Razer Chroma SDK/bin:/c/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Skype/Phone:/c/WINDOWS/System32/OpenSSH:/c/Users/Amarnath/AppData/Local/Microsoft/WindowsApps:/c/adb:/cmd:/c/Users/Amarnath/AppData/Local/Microsoft/WindowsApps:/c/Users/Amarnath/AppData/Local/Programs/Microsoft VS Code/bin:/usr/bin/vendor_perl:/usr/bin/core_perl)
+(learn-env)
+Amarnath@amardesk MINGW64 ~/dsc-data-science-env-setup-v2-1 (master)
